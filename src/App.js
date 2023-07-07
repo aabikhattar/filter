@@ -22,7 +22,7 @@ function App() {
 
   /** this variable is used to filter on the array
    * we add .toLoweCase() on array and input for case insesitive
-   * we use .map to print every element that satisfies the filter
+   * we use .map() to print every element that satisfies the filter
    */
   const result = fruits
     .filter((fruit) => fruit.toLowerCase().includes(filter.toLowerCase()))
